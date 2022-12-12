@@ -1,13 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-
 /* nav-bar */
 
 .nav {
@@ -18,9 +8,7 @@ body {
   align-items: center;
   padding: 10px;
 }
-.c1 {
-  background-color: #d97904 !important;
-}
+
 header a {
   color: white;
   text-decoration: none;
@@ -29,10 +17,6 @@ header a {
 
 nav a:hover {
   color: #a61103 !important;
-}
-
-iframe {
-  filter: grayscale();
 }
 
 .nav__logo {
@@ -90,7 +74,7 @@ iframe {
   color: white;
 }
 .b2 {
-  background-color: #d97904;
+  background-color: $primary;
   border: solid 1px white;
   color: white;
 }
