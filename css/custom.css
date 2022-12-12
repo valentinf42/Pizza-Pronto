@@ -10771,21 +10771,6 @@ textarea.form-control-lg {
   }
 }
 /* nav-bar */
-.nav {
-  background-color: #d97904;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-
-header a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
-
 nav a:hover {
   color: #a61103 !important;
 }
@@ -10885,31 +10870,6 @@ nav a:hover {
   font-weight: bold;
 }
 
-.ubicacion {
-  background-color: #d97904;
-  color: white;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.ubi {
-  background-color: #d97904;
-}
-
-.ubicacion h1, .ubicacion .h1 {
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin: 1rem 0rem;
-}
-
-.ubicacion iframe {
-  margin: 3rem;
-  border-radius: 20px;
-  box-shadow: black;
-}
-
 /* footer */
 .footer {
   background-color: #a61103;
@@ -10920,8 +10880,7 @@ nav a:hover {
   align-items: center;
   color: white;
 }
-
-.footer__row i {
+.footer i {
   margin: 10px 10px;
   background-color: #d97904;
   padding: 3px;
@@ -11043,7 +11002,6 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
-
 .equipo__miembros {
   background-color: #d97904;
   color: white;
@@ -11052,17 +11010,14 @@ nav a:hover {
   text-align: center;
   padding: 3rem 1rem;
 }
-
 .equipo__miembros h1, .equipo__miembros .h1 {
   text-align: center;
   font-size: 2rem;
   margin: 2rem;
 }
-
 .equipo__miembros p {
   font-style: italic;
 }
-
 .equipo__img {
   display: flex;
   flex-flow: row nowrap;
@@ -11070,12 +11025,10 @@ nav a:hover {
   align-items: center;
   height: 80vh;
 }
-
 .equipo__img__chef {
   border-radius: 50rem;
   width: 20%;
 }
-
 .equipo__nombre {
   display: flex;
   flex-flow: column nowrap;
@@ -11090,23 +11043,19 @@ nav a:hover {
   justify-content: center;
   align-items: center;
 }
-
+.recetas h1, .recetas .h1 {
+  font-size: 2.5rem;
+}
 .recetas__tit {
   text-align: center;
   padding: 2rem;
   margin: 2rem;
 }
-
 .recetas__tit h1, .recetas__tit .h1 {
   margin-bottom: 20px;
 }
-
 .recetas__tit p {
   font-style: italic;
-}
-
-.recetas h1, .recetas .h1 {
-  font-size: 2.5rem;
 }
 
 .recetas__row {
