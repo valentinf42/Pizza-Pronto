@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Description -->
+    <meta name="description" content="El mejor local de pizzas caseras!">
+    <!-- Keywords -->
+    <meta name="keywords" content="pizza pepperoni caseras prontopizza ">
     <!-- CSS custom -->
     <link rel="stylesheet" href="../css/custom.css" />
+    <!-- Animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- favicon -->
     <link rel="shortcut icon" href="../img/fav-icon.png" type="image/x-icon" />
     <title>Contacto</title>
@@ -13,18 +19,33 @@
   <body>
 
     <!-- Nav-Bar -->
-    <header class="nav nav__p">
-      <h1 class="nav__logo">
-        <a href="../index.html">Pronto Pizza</a>
-      </h1>
-      <ul class="nav__list">
-        <a href="../index.html">Inicio</a>
-        <a href="productos.html">Productos</a>
-        <a href="recetas.html">Recetas</a>
-        <a href="equipo.html">Equipos</a>
-        <a href="contacto.html">Contacto</a>
-      </ul>
-    </header>
+    <nav class="navbar navbar-expand-lg bg-light bg-gradient fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand text-primary fw-bold mx-4 fs-3 animate__animated animate__backInDown" href="../index.html">Pronto Pizza</a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse mx-2 justify-content-end" id="navbarSupportedContent">
+              <ul class="navbar-nav text-center">
+                  <li class="nav-item">
+                    <a class="nav-link text-primary fw-bold active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary fw-bold  active" href="./productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary fw-bold  active" aria-current="page" href="./recetas.html">Recetas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-primary fw-bold  active" aria-current="page" href="./equipo.html">Equipos</a>
+                  </li>
+                    <li class="nav-item"> 
+                    <a class="nav-link text-primary fw-bold  active" aria-current="page" href="./contacto.html">Contacto</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+    </nav>
 
     <!-- Section -->
     <section class="contacto">
