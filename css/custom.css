@@ -11098,4 +11098,17 @@ nav a:hover {
   text-align: right;
 }
 
+.frente {
+  background-image: url("../img/Ola.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 190vh;
+}
+@media (max-width: 850px) {
+  .frente {
+    background-image: none;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */
