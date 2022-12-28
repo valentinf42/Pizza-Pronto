@@ -11109,6 +11109,9 @@ nav a:hover {
   .frente {
     background-image: none;
   }
+  .frente .c-black {
+    color: black !important;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
