@@ -47,26 +47,30 @@
       </div>
     </nav>
 
-    <!-- Section -->
-    <section class="contacto">
-      <form class="formulario" action="">
-        <h1>CONTÁCTANOS</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit, metus enim
-          litora congue dui parturient.
-        </p>
-        <div class="formulario__container">
-          <input class="input" type="text" placeholder="First Name" />
-          <input class="input" type="text" placeholder="Last Name" />
-          <input class="input" type="text" placeholder="Email" />
-          <input class="btn" type="button" value="ENVIAR" />
+    <!-- Formulario -->
+    <section class="container-fluid py-5 my-3">
+      <div class="row py-5 m-3">
+        <div class="col-12">
+          <h1 class="fw-bold mb-4 text-center display-4">Contacto</h1>
+          <form action="">
+            <div class="mb-3">
+              <label for="email" class="form-label fw-bold">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="ingrese aqui su email" aria-describedby="emailHelp" required>
+              <div class="form-text" id="emailHelp">No compartiremos tu email con nadie.</div>
+            </div>
+            <div class="mb-3">
+              <label for="contraseña" class="form-label fw-bold">Contraseña:</label>
+              <input type="password" class="form-control" id="contraseña" placeholder="ingrese aqui su contraseña" required>
+            </div>
+            <button class="btn btn-primary w-100" type="submit">Enviar</button>
+          </form>
         </div>
-      </form>
+      </div>
     </section>
 
         <!-- Footer -->
     <footer class="footer footer__p">
-         <div class="footer__row">
+        <div class="footer__row">
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
